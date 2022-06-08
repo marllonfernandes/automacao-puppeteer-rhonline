@@ -12,7 +12,7 @@ const puppeteer = require("puppeteer");
   
   let executablePath;
   if (/^win/i.test(osPlatform)) {
-    executablePath = "";
+    executablePath = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe";
   } else if (/^linux/i.test(osPlatform)) {
     executablePath = "/usr/bin/google-chrome";
   } else if(/^darwin/i.test(osPlatform)){
